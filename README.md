@@ -21,7 +21,7 @@
   <img src="https://img.shields.io/github/license/coderomm/linkedin-ai-formatter-app" />
   <img src="https://img.shields.io/github/last-commit/coderomm/linkedin-ai-formatter-app" />
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" />
-  <img src="https://img.shields.io/twitter/follow/coderomm?style=social" />
+  <img src="https://img.shields.io/twitter/follow/1omsharma?style=social" />
 </p>
 
 ---
