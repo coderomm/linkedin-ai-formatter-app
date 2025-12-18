@@ -1,37 +1,185 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 **LinkedIn AI Formatter — AI-Powered Post Formatting for LinkedIn**
 
-## Getting Started
+<p align="center">
+  <img src="/public/product/logo.png" width="96" alt="LinkedIn AI Formatter Logo" />
+</p>
 
-First, run the development server:
+<h1 align="center">LinkedIn AI Formatter</h1>
+
+<p align="center"><strong>Convert your AI generated post content into LinkedIn-friendly and supportive so your posts look exactly how you intend.</strong></p>
+
+<p align="center">
+  <a href="https://linkedin-ai-formatter.vercel.app">🌐 Live Demo</a> • 
+  <a href="#-features">✨ Features</a> • 
+  <a href="#-tech-stack">🧩 Tech Stack</a> • 
+  <a href="#-future-goals">🔮 Future</a> • 
+  <a href="#-contributing">🤝 Contribute</a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/stars/coderomm/linkedin-ai-formatter-app?style=social" />
+  <img src="https://img.shields.io/github/license/coderomm/linkedin-ai-formatter-app" />
+  <img src="https://img.shields.io/github/last-commit/coderomm/linkedin-ai-formatter-app" />
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" />
+  <img src="https://img.shields.io/twitter/follow/coderomm?style=social" />
+</p>
+
+---
+
+## 📌 Overview
+
+When copying content from AI tools like GPT, Notion, or Google Docs, **LinkedIn strips out most formatting** — bold, italic, bullets, and other styling disappear.
+
+LinkedIn AI Formatter solves this by **detecting existing formatting in your input** and converting it into **Unicode equivalents** that LinkedIn displays correctly.
+
+The app is simple, lightweight, and focused entirely on **preserving your formatting** without adding new styles or changing your content structure.
+
+---
+
+## ✨ Features
+
+* ✍️ **Formatting Preservation**
+  Converts only **existing formatting** in your input text (Markdown or HTML) into Unicode that renders correctly on LinkedIn.
+
+* 🅱️📝 **Supported Formats**
+
+  * Bold
+  * Italic
+  * Underline
+  * Strikethrough
+  * Bullet points
+  * Numbered lists
+
+* ⚡ **Real-Time Preview**
+  See exactly how your post will appear on LinkedIn before publishing.
+
+* 📄 **Copy & Paste Ready**
+  Export formatted text to LinkedIn without losing styling.
+
+* 💻 **Zero-Config Usage**
+  Simply type or paste your content — no setup required.
+
+---
+
+## 🖼️ Screenshots
+
+<p align="center">
+  <img src="/public/product/hero.png" alt="Editor Screenshot" width="800" />
+  <br />
+  <em>AI-created post formatter</em>
+</p>
+
+<p align="center">
+  <img src="/public/product/tool.png" alt="Preview Screenshot" width="800" />
+  <br />
+  <em>Tool preview</em>
+</p>
+
+<p align="center">
+  <img src="/public/product/formatting-works.png" alt="How It Works Screenshot" width="800" />
+  <br />
+  <em>How it works preview</em>
+</p>
+
+---
+
+## 🧩 Tech Stack
+
+* **Framework:** Next.js 16
+* **Language:** TypeScript
+* **UI:** React 19, Tailwind CSS
+* **Deployment:** Vercel
+
+---
+
+## 🌐 Live Demo
+
+👉 **[https://linkedin-ai-formatter.vercel.app](https://linkedin-ai-formatter.vercel.app)**
+Try it out and create your perfect LinkedIn post instantly.
+
+---
+
+## 🔮 Future Goals
+
+* ⚡ **Performance Improvements**
+  Handle very large inputs efficiently.
+
+* 🖋️ **Additional Transformation Styles**
+  Expand formatting support if LinkedIn visually allows.
+
+* 🌐 **Optional Integration**
+  Direct copy-to-LinkedIn button (future, not implemented yet).
+
+* 🤖 **Advanced AI Suggestions**
+  Personalized writing tips and tone adjustments based on audience engagement.
+
+* 🔗 **LinkedIn API Integration**
+  Direct post scheduling and publishing from the app.
+
+* 📊 **Analytics & Feedback**
+  Track post performance and get insights on engagement trends.
+
+* 🎨 **Enhanced Templates**
+  Prebuilt templates for popular post types like announcements, polls, or thought leadership.
+
+---
+
+## 📦 Installation (Optional)
+
+To run locally:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+git clone https://github.com/coderomm/linkedin-ai-formatter-app.git
+cd linkedin-ai-formatter-app
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* The editor is fully functional locally.
+* AI features require an API key configured in `.env`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📚 Documentation
 
-## Learn More
+* [Overview](docs/overview.md) - App purpose and workflow
+* [Usage](docs/usage.md) - How to use the app
+* [Contributing](CONTRIBUTING.md) - Guidelines for contributors
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤝 Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contributions, discussions, and feedback are welcome!
 
-## Deploy on Vercel
+1. [Report an issue](https://github.com/coderomm/linkedin-ai-formatter-app/issues/new/choose)
+2. Fork the repo and create a feature branch
+3. Make changes following the existing style
+4. Open a pull request with a clear description
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# linkedin-ai-formatter-app
+## 📄 License
+
+MIT License.
+Feel free to use the UI and workflow ideas — core AI formatting logic is proprietary.
+
+Copyright (c) 2025 Om Sharma
+
+---
+
+## 📫 Contact
+
+* 🌐 Website: [https://linkedin-ai-formatter.vercel.app](https://linkedin-ai-formatter.vercel.app)
+* 🐦 Twitter: [https://twitter.com/1omsharma](https://twitter.com/1omsharma)
+* 🐦 LinkedIn: [https://www.linkedin.com/in/1omsharma](https://www.linkedin.com/in/1omsharma)
+
+---
+
+<div align="center">
+
+Made with ❤️ by the LinkedIn AI Formatter team (OM)
+
+[⭐ Star us on GitHub](https://github.com/coderomm/linkedin-ai-formatter-app) • [🐛 Report a bug](https://github.com/coderomm/linkedin-ai-formatter-app/issues/new?template=bug_report.md) • [💡 Request a feature](https://github.com/coderomm/linkedin-ai-formatter-app/issues/new?template=feature_request.md)
+
+</div>
