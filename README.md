@@ -9,7 +9,7 @@
 <p align="center"><strong>Convert your AI generated post content into LinkedIn-friendly and supportive so your posts look exactly how you intend.</strong></p>
 
 <p align="center">
-  <a href="https://linkedin-ai-formatter.vercel.app">🌐 Live Demo</a> • 
+  <a href="https://linkedin-ai-formatter.omsharma.xyz">🌐 Live Demo</a> • 
   <a href="#-features">✨ Features</a> • 
   <a href="#-tech-stack">🧩 Tech Stack</a> • 
   <a href="#-future-goals">🔮 Future</a> • 
@@ -94,7 +94,7 @@ The app is simple, lightweight, and focused entirely on **preserving your format
 
 ## 🌐 Live Demo
 
-👉 **[https://linkedin-ai-formatter.vercel.app](https://linkedin-ai-formatter.vercel.app)**
+👉 **[https://linkedin-ai-formatter.omsharma.xyz](https://linkedin-ai-formatter.omsharma.xyz)**
 Try it out and create your perfect LinkedIn post instantly.
 
 ---
@@ -170,7 +170,7 @@ Copyright (c) 2025 Om Sharma
 
 ## 📫 Contact
 
-* 🌐 Website: [https://linkedin-ai-formatter.vercel.app](https://linkedin-ai-formatter.vercel.app)
+* 🌐 Website: [https://linkedin-ai-formatter.omsharma.xyz](https://linkedin-ai-formatter.omsharma.xyz)
 * 🐦 Twitter: [https://twitter.com/1omsharma](https://twitter.com/1omsharma)
 * 🐦 LinkedIn: [https://www.linkedin.com/in/1omsharma](https://www.linkedin.com/in/1omsharma)
 
